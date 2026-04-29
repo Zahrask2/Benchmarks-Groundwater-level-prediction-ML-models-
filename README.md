@@ -27,23 +27,11 @@ The project evaluates whether deep learning models outperform traditional statis
 | TCN      | Second| Second| Second| Second|
 | SARIMAX  | Third | Third | Third | Third |
 
-- LSTM achieved the strongest performance, narrowly but consistently outperforming TCN across all metrics.
-- Both deep learning models reduced RMSE by approximately **47%** compared to SARIMAX.
-- SARIMAX failed to outperform the naive mean predictor.
-- Feature importance analysis showed `water_level` as the dominant predictor in deep learning models, followed by `temperature`.
 
-## Repository Structure
-
-```
-ML-GWL-frocaster/
-├── index.html          # Website (GitHub Pages)
-├── README.md           # This file
-└── ...                 # Website assets
-```
 
 ## Notebooks (Hosted on HuggingFace)
 
-All model training and evaluation notebooks are hosted on HuggingFace for reproducibility:
+All trained model HuggingFace for reproducibility:
 
 | Model    | Notebook Link |
 |----------|--------------|
@@ -86,7 +74,7 @@ The project website is published via GitHub Pages and provides an accessible vis
 
 ## Ethical Approval
 
-This project received ethical approval from the University of Sheffield (Reference: 073064). The study uses secondary, non-personal environmental data and does not involve human participants.
+This project received ethical approval from the University of Sheffield. The study uses secondary, non-personal environmental data and does not involve human participants.
 
 ## License
 
