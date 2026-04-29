@@ -27,9 +27,16 @@ The project evaluates whether deep learning models outperform traditional statis
 | TCN      | Second| Second| Second| Second|
 | SARIMAX  | Third | Third | Third | Third |
 
+## Notebooks
+| Task             | Notebook Link |
+|------------------|--------------|
+| Prprocessing     | [preprocessing](https://github.com/Zahrask2/Benchmarks-Groundwater-level-prediction-ML-models-/tree/main/Data%20prepration)|
+| SARIMAX          | [SARIMAX](https://github.com/Zahrask2/Benchmarks-Groundwater-level-prediction-ML-models-/tree/main/SARIMAX%20development)|
+| Deep Learning    | [Deep learning](https://github.com/Zahrask2/Benchmarks-Groundwater-level-prediction-ML-models-/tree/main/Deep%20learning%20models) |
+|Feature Importance| [Feature importance](https://huggingface.co/Kozy9/GWTCN](https://github.com/Zahrask2/Benchmarks-Groundwater-level-prediction-ML-models-#:~:text=GWL_Feature_Importance.ipynb)) |
+| ML Benchmark     | [Benchmark](https://github.com/Zahrask2/Benchmarks-Groundwater-level-prediction-ML-models-#:~:text=GWL_Model_comparison.ipynb)|
 
-
-## Notebooks (Hosted on HuggingFace)
+## Trained models (Hosted on HuggingFace)
 
 All trained model HuggingFace for reproducibility:
 
