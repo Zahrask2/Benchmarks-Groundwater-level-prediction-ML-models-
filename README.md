@@ -9,16 +9,16 @@
 
 ## Overview
 
-This repository contains the website and digital artefact for a final-year project benchmarking three time-series forecasting models — **SARIMAX**, **LSTM**, and **TCN** — for monthly groundwater level (GWL) prediction using a UK observational dataset spanning 1944–2023.
+This repository contains the Source code for the final-year project benchmarking three time-series forecasting models — **SARIMAX**, **LSTM**, and **TCN** — for monthly groundwater level (GWL) prediction using a UK observational dataset spanning 1944–2023.
 
-The project evaluates whether deep learning models outperform traditional statistical approaches for GWL forecasting, and examines the contribution of meteorological variables (temperature, precipitation, wind speed) to each model's predictions using permutation feature importance.
+## Data Sources
 
-## Research Hypotheses
-
-- **H1:** Deep learning models (LSTM, TCN) outperform SARIMAX in GWL forecasting accuracy.
-- **H2:** TCN outperforms LSTM due to its parallelisable architecture and dilated convolutions.
-- **H3:** Meteorological variables contribute meaningfully to model predictions.
-
+- **Groundwater Levels:** IGRAC (International Groundwater Resources Assessment Centre) — 27 UK monitoring wells
+  https://ggis.un-igrac.org/view/ggmn/
+  
+- **Meteorological Data:** Temperature, precipitation, wind speed (1944–2023)
+  https://open-meteo.com/
+  
 ## Key Results
 
 | Model    | RMSE  | MAE   | R²    | NSE   |
@@ -59,19 +59,8 @@ All trained model HuggingFace for reproducibility:
 - **Evaluation Metrics:** RMSE, MAE, MAPE, R², NSE
 - **Feature Importance:** Permutation-based importance analysis
 
-## Data Sources
 
-- **Groundwater Levels:** IGRAC (International Groundwater Resources Assessment Centre) — 27 UK monitoring wells
-- **Meteorological Data:** Temperature, precipitation, wind speed (1944–2023)
 
-## How to Reproduce
-
-1. Open the relevant notebook link from the table above.
-2. Run the notebook in Google Colab (recommended) or a local Jupyter environment.
-3. Each notebook includes markdown explanation cells paired with code cells, following a numbered step-by-step structure.
-4. All preprocessing, training, evaluation, and visualisation steps are contained within the notebooks.
-
-> **Note:** Notebooks have been cleaned of widget metadata for rendering compatibility. Run all cells to reproduce outputs.
 
 ## Website
 
