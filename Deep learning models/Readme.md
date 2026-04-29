@@ -1,4 +1,4 @@
-# Flow chart of LSTM and TCN development 
+# Flowchart of LSTM and TCN development 
 
 <img width="793" height="687" alt="lstm_flowchart" src="https://github.com/user-attachments/assets/3d26a66c-8658-4aa0-bb31-c2fa8c3f7746" />
 
